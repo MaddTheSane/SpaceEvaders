@@ -7,7 +7,7 @@ class FadeText {
         text = SKLabelNode(text: label)
         text.position = CGPoint(x: x, y: y)
         text.fontName = "timeburner"
-        text.color = UIColor.whiteColor()
+        text.color = SKColor.whiteColor()
         text.fontSize = 25
         text.zPosition = 500
         text.verticalAlignmentMode = .Bottom

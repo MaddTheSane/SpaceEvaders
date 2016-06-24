@@ -21,7 +21,7 @@ class Scoreboard {
             NSUserDefaults.standardUserDefaults().setInteger(score, forKey: "highscore")
             NSUserDefaults.standardUserDefaults().synchronize()
             isHighScore = true
-            GCHelper.sharedInstance.reportLeaderboardIdentifier("leaderBoardID", score: score)
+            //GCHelper.sharedInstance.reportLeaderboardIdentifier("leaderBoardID", score: score)
         }
     }
 
@@ -47,7 +47,7 @@ class Scoreboard {
     func getHighscoreLabel(size: CGSize) -> SKLabelNode {
         let highscore = SKLabelNode(text: "High Score!")
         highscore.position = CGPointMake(size.width / 2, size.height / 2 + 50)
-        highscore.fontColor = UIColor.redColor()
+        highscore.fontColor = SKColor.redColor()
         highscore.fontSize = 80
         highscore.fontName = "timeburner"
         highscore.runAction(SKAction.repeatActionForever(SKAction.sequence([SKAction.fadeInWithDuration(0.3), SKAction.fadeOutWithDuration(0.3)])))

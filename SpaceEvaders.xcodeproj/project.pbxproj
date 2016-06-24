@@ -58,6 +58,56 @@
 		54ECDC211A64E99400860C5E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECDC1D1A64E99400860C5E /* settings.png */; };
 		54EE9E0A1ADB4E9400F5608F /* indicatorsoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EE9E081ADB4E9400F5608F /* indicatorsoff.png */; };
 		54EE9E0B1ADB4E9400F5608F /* indicatorson.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EE9E091ADB4E9400F5608F /* indicatorson.png */; };
+		558516761D1D980D00FDAD85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558516751D1D980D00FDAD85 /* AppDelegate.swift */; };
+		558516781D1D980D00FDAD85 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558516771D1D980D00FDAD85 /* GameScene.swift */; };
+		5585167C1D1D980D00FDAD85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5585167B1D1D980D00FDAD85 /* Assets.xcassets */; };
+		5585167F1D1D980D00FDAD85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5585167D1D1D980D00FDAD85 /* MainMenu.xib */; };
+		558516851D1D983000FDAD85 /* Alien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541036871A55EFB000FA8BD2 /* Alien.swift */; };
+		558516861D1D983000FDAD85 /* Powerup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548983F81A57938E00C7BF63 /* Powerup.swift */; };
+		558516871D1D983000FDAD85 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B0DAB1A5F59BC00B3985C /* Rocket.swift */; };
+		558516881D1D983000FDAD85 /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B0DA91A5E105900B3985C /* Explosion.swift */; };
+		558516891D1D983000FDAD85 /* Explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 547BDB851A60AD16009F1B50 /* Explode.sks */; };
+		5585168A1D1D983000FDAD85 /* Scoreboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B0DAE1A5F5D3E00B3985C /* Scoreboard.swift */; };
+		5585168B1D1D983000FDAD85 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B0DB01A5F64CE00B3985C /* Background.swift */; };
+		5585168C1D1D983000FDAD85 /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541036891A55EFD200FA8BD2 /* Sprite.swift */; };
+		5585168D1D1D984000FDAD85 /* soundoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BC178B1AC1FABF000A7FED /* soundoff.png */; };
+		5585168E1D1D984000FDAD85 /* soundon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BC178C1AC1FABF000A7FED /* soundon.png */; };
+		5585168F1D1D984000FDAD85 /* musicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BC17911AC207C0000A7FED /* musicon.png */; };
+		558516901D1D984000FDAD85 /* musicoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BC17961AC20F58000A7FED /* musicoff.png */; };
+		558516911D1D984000FDAD85 /* followoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5401CE181ADB02D8002D20F2 /* followoff.png */; };
+		558516921D1D984000FDAD85 /* followon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5401CE191ADB02D8002D20F2 /* followon.png */; };
+		558516931D1D984000FDAD85 /* indicatorsoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EE9E081ADB4E9400F5608F /* indicatorsoff.png */; };
+		558516941D1D984000FDAD85 /* indicatorson.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EE9E091ADB4E9400F5608F /* indicatorson.png */; };
+		558516951D1D984000FDAD85 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B436361A832EF9008E592E /* twitter.png */; };
+		558516961D1D984000FDAD85 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B436371A832EF9008E592E /* facebook.png */; };
+		558516971D1D984000FDAD85 /* howto.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CDE1281A66514000E18B95 /* howto.png */; };
+		558516981D1D984000FDAD85 /* leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECDC1A1A64E99400860C5E /* leaderboard.png */; };
+		558516991D1D984000FDAD85 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECDC1B1A64E99400860C5E /* home.png */; };
+		5585169A1D1D984000FDAD85 /* credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BC179C1AC22FA4000A7FED /* credits.png */; };
+		5585169B1D1D984000FDAD85 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A317951B3A06E100D8CB16 /* launch.png */; };
+		5585169C1D1D984000FDAD85 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECDC1C1A64E99400860C5E /* info.png */; };
+		5585169D1D1D984000FDAD85 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECDC1D1A64E99400860C5E /* settings.png */; };
+		5585169E1D1D984000FDAD85 /* laser.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD86831A8E86E000839E28 /* laser.png */; };
+		5585169F1D1D984400FDAD85 /* powerup.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 55AD86851A8E871300839E28 /* powerup.atlas */; };
+		558516A01D1D984400FDAD85 /* game.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 55AD86811A8E831E00839E28 /* game.atlas */; };
+		558516A11D1D985D00FDAD85 /* Start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54BC17791AC1ECF0000A7FED /* Start.mp3 */; };
+		558516A21D1D985D00FDAD85 /* Powerup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54BC177A1AC1ECF0000A7FED /* Powerup.mp3 */; };
+		558516A31D1D985D00FDAD85 /* Alien_Disable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54BC177B1AC1ECF0000A7FED /* Alien_Disable.mp3 */; };
+		558516A41D1D985D00FDAD85 /* Death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54BC177C1AC1ECF0000A7FED /* Death.mp3 */; };
+		558516A51D1D985D00FDAD85 /* Chamber-of-Jewels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54BC17811AC1F2BA000A7FED /* Chamber-of-Jewels.mp3 */; };
+		558516A61D1D985F00FDAD85 /* timeburner.otf in Resources */ = {isa = PBXBuildFile; fileRef = 547B0E0C1A5FA2F800B3985C /* timeburner.otf */; };
+		558516A81D1D98C700FDAD85 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4AB1E1A4F6B56004D80C3 /* MainMenuScene.swift */; };
+		558516A91D1D98C700FDAD85 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D1EDC91A846FB50058E8DB /* Utility.swift */; };
+		558516AA1D1D98C700FDAD85 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C242F41AC8AEE8005385C2 /* Options.swift */; };
+		558516AB1D1D98DA00FDAD85 /* FadeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A9B151B1534F200A8F6E0 /* FadeText.swift */; };
+		558516AC1D1D98DA00FDAD85 /* PopupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECDC111A632A1600860C5E /* PopupMenu.swift */; };
+		558516AD1D1D98DA00FDAD85 /* OptionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C242F81AC8C26C005385C2 /* OptionsMenu.swift */; };
+		558516AE1D1D98DA00FDAD85 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECDC131A64376800860C5E /* Button.swift */; };
+		558516AF1D1D98DA00FDAD85 /* Pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BDB8B1A60C1B1009F1B50 /* Pause.swift */; };
+		558516B01D1D98DA00FDAD85 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BC17981AC2230A000A7FED /* Info.swift */; };
+		558516B11D1D98DA00FDAD85 /* Iapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54055C711AF07D1500FDD966 /* Iapp.swift */; };
+		558516B31D1D99DC00FDAD85 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558516B21D1D99DC00FDAD85 /* GameViewController.swift */; };
+		558516B61D1D9E6800FDAD85 /* GCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558516B51D1D9E6800FDAD85 /* GCHelper.swift */; };
 		55AD86821A8E831E00839E28 /* game.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 55AD86811A8E831E00839E28 /* game.atlas */; };
 		55AD86841A8E86E000839E28 /* laser.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD86831A8E86E000839E28 /* laser.png */; };
 		55AD86861A8E871300839E28 /* powerup.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 55AD86851A8E871300839E28 /* powerup.atlas */; };
@@ -119,6 +169,14 @@
 		54ECDC1D1A64E99400860C5E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		54EE9E081ADB4E9400F5608F /* indicatorsoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicatorsoff.png; sourceTree = "<group>"; };
 		54EE9E091ADB4E9400F5608F /* indicatorson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicatorson.png; sourceTree = "<group>"; };
+		558516731D1D980D00FDAD85 /* Space Evaders-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Evaders-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558516751D1D980D00FDAD85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		558516771D1D980D00FDAD85 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5585167B1D1D980D00FDAD85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5585167E1D1D980D00FDAD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		558516801D1D980D00FDAD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558516B21D1D99DC00FDAD85 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		558516B51D1D9E6800FDAD85 /* GCHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCHelper.swift; sourceTree = "<group>"; };
 		55AD86811A8E831E00839E28 /* game.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = game.atlas; sourceTree = "<group>"; };
 		55AD86831A8E86E000839E28 /* laser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laser.png; sourceTree = "<group>"; };
 		55AD86851A8E871300839E28 /* powerup.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = powerup.atlas; sourceTree = "<group>"; };
@@ -137,6 +195,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		558516701D1D980D00FDAD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -146,6 +211,7 @@
 				549C4AB51AC34BB500F26917 /* Crashlytics.framework */,
 				549C4AB61AC34BB500F26917 /* Fabric.framework */,
 				5403242A1A4B8B5300B61880 /* SpaceEvaders */,
+				558516741D1D980D00FDAD85 /* Space Evaders-Mac */,
 				55AD867E1A8E81FD00839E28 /* Frameworks */,
 				540324291A4B8B5300B61880 /* Products */,
 			);
@@ -155,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				540324281A4B8B5300B61880 /* SpaceEvaders.app */,
+				558516731D1D980D00FDAD85 /* Space Evaders-Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,6 +249,7 @@
 			);
 			path = SpaceEvaders;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		5403242B1A4B8B5300B61880 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -267,6 +335,21 @@
 			name = buttons;
 			sourceTree = "<group>";
 		};
+		558516741D1D980D00FDAD85 /* Space Evaders-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				558516B51D1D9E6800FDAD85 /* GCHelper.swift */,
+				558516B21D1D99DC00FDAD85 /* GameViewController.swift */,
+				558516751D1D980D00FDAD85 /* AppDelegate.swift */,
+				558516771D1D980D00FDAD85 /* GameScene.swift */,
+				5585167B1D1D980D00FDAD85 /* Assets.xcassets */,
+				5585167D1D1D980D00FDAD85 /* MainMenu.xib */,
+				558516801D1D980D00FDAD85 /* Info.plist */,
+			);
+			path = "Space Evaders-Mac";
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
 		55AD867E1A8E81FD00839E28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +381,23 @@
 			productReference = 540324281A4B8B5300B61880 /* SpaceEvaders.app */;
 			productType = "com.apple.product-type.application";
 		};
+		558516721D1D980D00FDAD85 /* Space Evaders-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558516811D1D980D00FDAD85 /* Build configuration list for PBXNativeTarget "Space Evaders-Mac" */;
+			buildPhases = (
+				5585166F1D1D980D00FDAD85 /* Sources */,
+				558516701D1D980D00FDAD85 /* Frameworks */,
+				558516711D1D980D00FDAD85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Evaders-Mac";
+			productName = "Space Evaders-Mac";
+			productReference = 558516731D1D980D00FDAD85 /* Space Evaders-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -305,7 +405,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Tristen Miller";
 				TargetAttributes = {
@@ -320,6 +420,9 @@
 								enabled = 1;
 							};
 						};
+					};
+					558516721D1D980D00FDAD85 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -337,6 +440,7 @@
 			projectRoot = "";
 			targets = (
 				540324271A4B8B5300B61880 /* SpaceEvaders */,
+				558516721D1D980D00FDAD85 /* Space Evaders-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -376,6 +480,42 @@
 				54BC179D1AC22FA4000A7FED /* credits.png in Resources */,
 				54BC177F1AC1ECF0000A7FED /* Alien_Disable.mp3 in Resources */,
 				54A317941B3A037A00D8CB16 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558516711D1D980D00FDAD85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5585169B1D1D984000FDAD85 /* launch.png in Resources */,
+				558516911D1D984000FDAD85 /* followoff.png in Resources */,
+				5585167C1D1D980D00FDAD85 /* Assets.xcassets in Resources */,
+				558516961D1D984000FDAD85 /* facebook.png in Resources */,
+				5585169A1D1D984000FDAD85 /* credits.png in Resources */,
+				5585168E1D1D984000FDAD85 /* soundon.png in Resources */,
+				558516951D1D984000FDAD85 /* twitter.png in Resources */,
+				558516A31D1D985D00FDAD85 /* Alien_Disable.mp3 in Resources */,
+				558516991D1D984000FDAD85 /* home.png in Resources */,
+				5585169E1D1D984000FDAD85 /* laser.png in Resources */,
+				558516941D1D984000FDAD85 /* indicatorson.png in Resources */,
+				558516981D1D984000FDAD85 /* leaderboard.png in Resources */,
+				5585169C1D1D984000FDAD85 /* info.png in Resources */,
+				5585169F1D1D984400FDAD85 /* powerup.atlas in Resources */,
+				558516971D1D984000FDAD85 /* howto.png in Resources */,
+				558516A21D1D985D00FDAD85 /* Powerup.mp3 in Resources */,
+				558516901D1D984000FDAD85 /* musicoff.png in Resources */,
+				558516931D1D984000FDAD85 /* indicatorsoff.png in Resources */,
+				5585169D1D1D984000FDAD85 /* settings.png in Resources */,
+				558516921D1D984000FDAD85 /* followon.png in Resources */,
+				558516A41D1D985D00FDAD85 /* Death.mp3 in Resources */,
+				558516A61D1D985F00FDAD85 /* timeburner.otf in Resources */,
+				5585168D1D1D984000FDAD85 /* soundoff.png in Resources */,
+				558516A51D1D985D00FDAD85 /* Chamber-of-Jewels.mp3 in Resources */,
+				5585168F1D1D984000FDAD85 /* musicon.png in Resources */,
+				5585167F1D1D980D00FDAD85 /* MainMenu.xib in Resources */,
+				558516891D1D983000FDAD85 /* Explode.sks in Resources */,
+				558516A01D1D984400FDAD85 /* game.atlas in Resources */,
+				558516A11D1D985D00FDAD85 /* Start.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +567,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5585166F1D1D980D00FDAD85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558516A81D1D98C700FDAD85 /* MainMenuScene.swift in Sources */,
+				558516AA1D1D98C700FDAD85 /* Options.swift in Sources */,
+				5585168C1D1D983000FDAD85 /* Sprite.swift in Sources */,
+				558516881D1D983000FDAD85 /* Explosion.swift in Sources */,
+				558516861D1D983000FDAD85 /* Powerup.swift in Sources */,
+				558516AB1D1D98DA00FDAD85 /* FadeText.swift in Sources */,
+				558516B31D1D99DC00FDAD85 /* GameViewController.swift in Sources */,
+				558516781D1D980D00FDAD85 /* GameScene.swift in Sources */,
+				558516B01D1D98DA00FDAD85 /* Info.swift in Sources */,
+				558516871D1D983000FDAD85 /* Rocket.swift in Sources */,
+				558516AC1D1D98DA00FDAD85 /* PopupMenu.swift in Sources */,
+				5585168B1D1D983000FDAD85 /* Background.swift in Sources */,
+				558516A91D1D98C700FDAD85 /* Utility.swift in Sources */,
+				558516761D1D980D00FDAD85 /* AppDelegate.swift in Sources */,
+				558516AD1D1D98DA00FDAD85 /* OptionsMenu.swift in Sources */,
+				558516B61D1D9E6800FDAD85 /* GCHelper.swift in Sources */,
+				558516B11D1D98DA00FDAD85 /* Iapp.swift in Sources */,
+				558516AF1D1D98DA00FDAD85 /* Pause.swift in Sources */,
+				558516851D1D983000FDAD85 /* Alien.swift in Sources */,
+				5585168A1D1D983000FDAD85 /* Scoreboard.swift in Sources */,
+				558516AE1D1D98DA00FDAD85 /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -436,6 +604,14 @@
 				540324361A4B8B5300B61880 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5585167D1D1D980D00FDAD85 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5585167E1D1D980D00FDAD85 /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -563,6 +739,43 @@
 			};
 			name = Release;
 		};
+		558516821D1D980D00FDAD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Space Evaders-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.maddthesane.Space-Evaders-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		558516831D1D980D00FDAD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Space Evaders-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.maddthesane.Space-Evaders-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,6 +796,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		558516811D1D980D00FDAD85 /* Build configuration list for PBXNativeTarget "Space Evaders-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558516821D1D980D00FDAD85 /* Debug */,
+				558516831D1D980D00FDAD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

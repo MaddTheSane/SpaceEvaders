@@ -45,7 +45,7 @@ public class GCHelper: NSObject, GKMatchmakerViewControllerDelegate, GKGameCente
     private var invite: GKInvite!
     private var invitedPlayer: GKPlayer!
     private var playersDict = [String:AnyObject]()
-    private var presentingViewController: UIViewController!
+    private var presentingViewController: NSViewController!
     
     private var authenticated = false
     private var matchStarted = false
@@ -127,12 +127,12 @@ public class GCHelper: NSObject, GKMatchmakerViewControllerDelegate, GKGameCente
     :param: viewController The view controller to present required GameKit view controllers from.
     :param: delegate The delegate receiving data from GCHelper.
     */
-    public func findMatchWithMinPlayers(minPlayers: Int, maxPlayers: Int, viewController: UIViewController, delegate theDelegate: GCHelperDelegate) {
+    public func findMatchWithMinPlayers(minPlayers: Int, maxPlayers: Int, viewController: NSViewController, delegate theDelegate: GCHelperDelegate) {
         matchStarted = false
         match = nil
         presentingViewController = viewController
         delegate = theDelegate
-        presentingViewController.dismissViewControllerAnimated(false, completion: nil)
+        //presentingViewController.dismissViewControllerAnimated(false, completion: nil)
         
         let request = GKMatchRequest()
         request.minPlayers = minPlayers
@@ -141,7 +141,7 @@ public class GCHelper: NSObject, GKMatchmakerViewControllerDelegate, GKGameCente
         let mmvc = GKMatchmakerViewController(matchRequest: request)!
         mmvc.matchmakerDelegate = self
         
-        presentingViewController.presentViewController(mmvc, animated: true, completion: nil)
+        //presentingViewController.presentViewController(mmvc, animated: true, completion: nil)
     }
     
     /**
@@ -184,34 +184,35 @@ public class GCHelper: NSObject, GKMatchmakerViewControllerDelegate, GKGameCente
     :param: viewController The view controller to present GameKit's view controller from.
     :param: viewState The state in which to present the new view controller.
     */
-    public func showGameCenter(viewController: UIViewController, viewState: GKGameCenterViewControllerState) {
+    public func showGameCenter(viewController: NSViewController, viewState: GKGameCenterViewControllerState) {
         presentingViewController = viewController
         
         let gcvc = GKGameCenterViewController()
         gcvc.viewState = viewState
         gcvc.gameCenterDelegate = self
-        presentingViewController.presentViewController(gcvc, animated: true, completion: nil)
+		//viewController.view.window
+        //presentingViewController.presentViewController(gcvc, animated: true, completion: nil)
     }
     
     // MARK: GKGameCenterControllerDelegate
     
     public func gameCenterViewControllerDidFinish(gameCenterViewController: GKGameCenterViewController) {
-        presentingViewController.dismissViewControllerAnimated(true, completion: nil)
+        //presentingViewController.dismissViewControllerAnimated(true, completion: nil)
     }
     
     // MARK: GKMatchmakerViewControllerDelegate
     
     public func matchmakerViewControllerWasCancelled(viewController: GKMatchmakerViewController) {
-        presentingViewController.dismissViewControllerAnimated(true, completion: nil)
+        //presentingViewController.dismissViewControllerAnimated(true, completion: nil)
     }
     
     public func matchmakerViewController(viewController: GKMatchmakerViewController, didFailWithError error: NSError) {
-        presentingViewController.dismissViewControllerAnimated(true, completion: nil)
+        //presentingViewController.dismissViewControllerAnimated(true, completion: nil)
         print("Error finding match: \(error.localizedDescription)")
     }
     
     public func matchmakerViewController(viewController: GKMatchmakerViewController, didFindMatch theMatch: GKMatch) {
-        presentingViewController.dismissViewControllerAnimated(true, completion: nil)
+        //presentingViewController.dismissViewControllerAnimated(true, completion: nil)
         match = theMatch
         match.delegate = self
         if !matchStarted && match.expectedPlayerCount == 0 {
@@ -262,6 +263,6 @@ public class GCHelper: NSObject, GKMatchmakerViewControllerDelegate, GKGameCente
     public func player(player: GKPlayer, didAcceptInvite inviteToAccept: GKInvite) {
         let mmvc = GKMatchmakerViewController(invite: inviteToAccept)!
         mmvc.matchmakerDelegate = self
-        presentingViewController.presentViewController(mmvc, animated: true, completion: nil)
+        //presentingViewController.presentViewController(mmvc, animated: true, completion: nil)
     }
 }

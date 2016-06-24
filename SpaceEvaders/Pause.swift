@@ -4,7 +4,7 @@ class Pause {
     var pause: SKSpriteNode
 
     init(size: CGSize, x: CGFloat, y: CGFloat) {
-        pause = SKSpriteNode(color: UIColor.clearColor(), size: CGSizeMake(size.width / 3, size.height / 6))
+        pause = SKSpriteNode(color: SKColor.clearColor(), size: CGSizeMake(size.width / 3, size.height / 6))
         pause.position = CGPoint(x: x, y: y);
         pause.zPosition = 10
         pause.name = "pause"

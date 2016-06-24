@@ -22,7 +22,7 @@ class PopupMenu {
         let node = SKLabelNode(text: title)
         node.fontName = "timeburner"
         node.fontSize = 200
-        node.color = UIColor.whiteColor()
+        node.color = SKColor.whiteColor()
         node.position = position
         menu.addChild(node)
     }

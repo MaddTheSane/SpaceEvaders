@@ -6,7 +6,7 @@ class Iapp {
     init(size: CGSize) {
         let x = size.width / 2
         let y = size.height / 2
-        iapp = SKSpriteNode(color: UIColor.blackColor(), size: size)
+        iapp = SKSpriteNode(color: SKColor.blackColor(), size: size)
         iapp.position = CGPoint(x: x, y: y)
         iapp.zPosition = 20
         iapp.name = "iapp"

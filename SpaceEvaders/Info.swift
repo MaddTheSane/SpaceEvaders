@@ -6,7 +6,7 @@ class Info {
     init(size: CGSize) {
         let x = size.width / 2
         let y = size.height / 2
-        info = SKSpriteNode(color: UIColor.blackColor(), size: size)
+        info = SKSpriteNode(color: SKColor.blackColor(), size: size)
         info.position = CGPoint(x: x, y: y)
         info.zPosition = 7
         info.name = "howto"

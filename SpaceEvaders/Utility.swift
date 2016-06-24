@@ -9,7 +9,7 @@ struct Utility {
         let sky = SKNode()
         for _ in 1 ... 500 {
             let rand = random() % 6
-            let star = SKSpriteNode(color: UIColor.whiteColor(), size: CGSize(width: rand, height: rand))
+            let star = SKSpriteNode(color: SKColor.whiteColor(), size: CGSize(width: rand, height: rand))
             star.position = CGPoint(x: random() % Int(width), y: random() % Int(height))
             sky.addChild(star)
         }
@@ -58,7 +58,7 @@ struct Utility {
             case "settings":
                 let parent = touched.parent! as SKNode
                 touched.removeFromParent()
-                OptionsMenu(menu: parent, size: size)
+                _ = OptionsMenu(menu: parent, size: size)
             default:
                 break
             }
