@@ -169,7 +169,7 @@
 		54ECDC1D1A64E99400860C5E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		54EE9E081ADB4E9400F5608F /* indicatorsoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicatorsoff.png; sourceTree = "<group>"; };
 		54EE9E091ADB4E9400F5608F /* indicatorson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicatorson.png; sourceTree = "<group>"; };
-		558516731D1D980D00FDAD85 /* Space Evaders-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Evaders-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558516731D1D980D00FDAD85 /* SpaceEvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceEvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558516751D1D980D00FDAD85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558516771D1D980D00FDAD85 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5585167B1D1D980D00FDAD85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				540324281A4B8B5300B61880 /* SpaceEvaders.app */,
-				558516731D1D980D00FDAD85 /* Space Evaders-Mac.app */,
+				558516731D1D980D00FDAD85 /* SpaceEvaders.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -395,7 +395,7 @@
 			);
 			name = "Space Evaders-Mac";
 			productName = "Space Evaders-Mac";
-			productReference = 558516731D1D980D00FDAD85 /* Space Evaders-Mac.app */;
+			productReference = 558516731D1D980D00FDAD85 /* SpaceEvaders.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -752,7 +752,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.maddthesane.Space-Evaders-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpaceEvaders;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -771,7 +771,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.maddthesane.Space-Evaders-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpaceEvaders;
 				SDKROOT = macosx;
 			};
 			name = Release;

@@ -16,8 +16,10 @@ class GameViewController: NSViewController, SKProductsRequestDelegate, SKPayment
         }
         let scene = MainMenuScene(size: CGSize(width: 2048, height: 1536))
         let skView = self.view as! SKView
-        //skView.showsFPS = true
-        //skView.showsNodeCount = true
+		#if DEBUG
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+		#endif
         skView.ignoresSiblingOrder = true
         scene.scaleMode = .AspectFill
         scene.viewController = self
